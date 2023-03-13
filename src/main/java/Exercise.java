@@ -20,5 +20,8 @@ public class Exercise {
         while (veri.next()){
             System.out.println(veri.getInt(1));
         }
+        con.close();
+        st.close();
+        veri.close();
     }
 }
