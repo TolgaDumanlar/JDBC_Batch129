@@ -15,5 +15,7 @@ public class Query08 {
         System.out.println(getColumnData(sql01, "ogrenci_ismi"));
 
         System.out.println(getColumnData(sql01, "sinif"));
+
+        closeConnection();
     }
 }
